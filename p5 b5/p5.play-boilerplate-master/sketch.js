@@ -11,10 +11,10 @@ function setup() {
   
   car=createSprite(50,200,50,50)
   car.velocityX=speed;
-  car.shapeColor(255)
+  car.shapeColor=color(255)
   
-  wall=createSprite(1500,200,600,height/2)
-  wall.shapeColor(80,80,80)
+  wall=createSprite(1400,200,600,height/2)
+  wall.shapeColor=color(80,80,80)
 }
 
 function draw() {
